@@ -7,4 +7,5 @@ Challenge faced in job-cycle:
 4. Difficulty in Finding Quality Candidate
 
 We can implement Myers-Briggs Type Indicator Chatbot in below 6 main recruitment stages:
+
 Preparing --> Sourcing --> Screening --> Selecting --> Hiring --> Onboarding
