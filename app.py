@@ -9,7 +9,7 @@ from keras.models import load_model
 model = load_model('model.h5')
 import json
 import random
-intents = json.loads(open(r"C:\Users\User\Dropbox\PC\Desktop\Chatbot-app\data.json").read())
+intents = json.loads(open(r"C:\Users\User\Dropbox\PC\Desktop\chatbot1\data.json").read())
 words = pickle.load(open('texts.pkl','rb'))
 classes = pickle.load(open('labels.pkl','rb'))
 
@@ -72,7 +72,7 @@ app.static_folder = 'static'
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("/templates/index.html")
 
 @app.route("/get")
 def get_bot_response():

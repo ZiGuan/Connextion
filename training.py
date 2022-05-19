@@ -16,7 +16,7 @@ words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open(r"C:\Users\User\Dropbox\PC\Desktop\Chatbot-app\data.json").read()
+data_file = open(r"C:\Users\User\Dropbox\PC\Desktop\chatbot1\data.json").read()
 intents = json.loads(data_file)
 
 

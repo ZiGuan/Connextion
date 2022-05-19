@@ -1,7 +1,7 @@
 {"intents": [
     {"tag": "greeting",
      "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "responses": ["Hello, Do you want to start interview question?", "Good to see you again, Do you want to start interview question?", "Hi there, Do you want to start interview question??"],
      "context": [""]
     },
     {"tag": "goodbye",
@@ -54,7 +54,6 @@
      "responses": ["Loading pharmacy details"],
      "context": [""]
     },
-
     {"tag": "police_search",
      "patterns": ["Lookup for police", "Searching for police to transfer patient", "I want to search police data", "police lookup for patient", "Looking up police details" ],
      "responses": ["Please provide police name or location"],
@@ -64,7 +63,17 @@
      "patterns": [],
      "responses": ["Please provide police type"],
      "context": ["search_police_by_type"]
-     }
+    },
+    {"tag": "yes",
+        "patterns": ["Yes", "of course", "Sure"],
+        "responses": ["https://www.youtube.com/"],
+        "context": [""]
+    },
+    {"tag": "no",
+     "patterns": ["No", "Not now"],
+     "responses": ["Okay, you can ask me any question if you are doubt"],
+     "context": [""]
+    }
     
 ]
 }
