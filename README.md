@@ -10,6 +10,9 @@ We can implement Myers-Briggs Type Indicator Chatbot in below 6 main recruitment
 
 Preparing --> Sourcing --> Screening --> Selecting --> Hiring --> Onboarding
 
+Example of Myers-Briggs Type Indicator Chatbot:
+![](/chatbot.png)
+
 Programming language requirements:
 1. HTML
 2. CSS
