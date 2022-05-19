@@ -15,6 +15,6 @@ Programming language requirements:
 2. CSS
 3. Python (NLP, Numpy, Keras, Tensorflow)
 
-data.json file was used to import the tag, patterns, response and context. If you are interested  to build your own chatbot, you can self import your patterns and question inside for updating the new chatbot.
+data.json file was used to import the tag, patterns, response and context. If you are interested  to build your own chatbot, you can update your own patterns and questions inside json file.
 
-*Kindly reminder: Please delete pkl file before you make changes the HTML, CSS and json file.
+*Kindly reminder: Please delete pkl file before you changed the HTML, CSS and json file.
