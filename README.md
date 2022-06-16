@@ -1,7 +1,7 @@
 Development of Myers-Briggs Type Indicator Chatbot to Improve Job Cycle Process 
 
 Challenge faced in job-cycle:
-1. Lack of Engagement
+1. Lack of Engagement 0987
 2. Time Consuming
 3. Boring Hiring Process
 4. Difficulty in Finding Quality Candidate
